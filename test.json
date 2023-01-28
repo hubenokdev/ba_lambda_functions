@@ -1,0 +1,22 @@
+{
+  "local-mh-AuthStack": {
+    "AuthFunctionName": "local-mh-AuthStack-AuthC256A5EC-Zrrp48NLjgAj",
+    "AuthFunctionArn": "arn:aws:lambda:eu-central-1:190041177893:function:local-mh-AuthStack-AuthC256A5EC-Zrrp48NLjgAj"
+  },
+  "local-mh-UserManagementBackend": {
+    "ApiEndpoint": "https://0dfzoden0h.execute-api.eu-central-1.amazonaws.com"
+  },
+  "local-mh-OrderStack": {
+    "ApiEndpoint": "https://8l1fltzkil.execute-api.eu-central-1.amazonaws.com"
+  },
+  "local-mh-FormulaStack": {
+    "ApiEndpoint": "https://dwcoqjhnwa.execute-api.eu-central-1.amazonaws.com"
+  },
+  "local-mh-WorkflowStack": {
+    "ApiEndpoint": "https://4qx0grudnb.execute-api.eu-central-1.amazonaws.com"
+  },
+  "local-mh-chat": {
+    "GraphQLAPIID": "y6u45dirqva6dj4lzrpjf3dtxy",
+    "GraphQLAPIURL": "https://4n6zcfcx4nflzg2cw66w3g3hj4.appsync-api.eu-central-1.amazonaws.com/graphql"
+  }
+}

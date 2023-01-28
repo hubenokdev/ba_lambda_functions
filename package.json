@@ -1,0 +1,61 @@
+{
+  "name": "BA",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sst start --stage $STAGE --outputs-file output-$STAGE.json",
+    "build": "sst build",
+    "deploy": "sst deploy --stage $STAGE --outputs-file output-$STAGE.json",
+    "remove": "sst remove --stage $STAGE",
+    "console": "sst console",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fast-csv/parse": "^4.3.6",
+    "@middy/core": "^2.5.7",
+    "@middy/http-cors": "^2.5.7",
+    "@middy/http-event-normalizer": "^2.5.7",
+    "@middy/http-header-normalizer": "^2.5.7",
+    "@middy/http-json-body-parser": "^2.5.7",
+    "@sailplane/injector": "^3.0.0",
+    "@sailplane/lambda-utils": "^5.0.0",
+    "@sailplane/logger": "^4.1.0",
+    "@types/http-errors": "^2.0.1",
+    "aws-crt": "^1.15.5",
+    "aws-sdk": "^2.1290.0",
+    "csv-parse": "^5.3.3",
+    "handlebars": "^4.7.7",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.0",
+    "source-map-support": "^0.5.21",
+    "validator": "^13.7.0",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@serverless-stack/cli": "^1.18.4",
+    "@serverless-stack/resources": "^1.18.4",
+    "@tsconfig/node16": "^1.0.3",
+    "@types/aws-lambda": "^8.10.109",
+    "@types/http-errors": "^2.0.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/lodash": "^4.14.191",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.11.18",
+    "@types/uuid": "^9.0.0",
+    "@types/validator": "^13.7.10",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "aws-cdk-lib": "2.50.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "prettier": "2.8.3",
+    "typescript": "^4.9.4"
+  },
+  "workspaces": [
+    "src",
+    "stacks"
+  ]
+}

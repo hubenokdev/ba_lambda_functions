@@ -1,0 +1,11 @@
+**/endpoints/*
+.eslintrc.js
+.serverless
+.webpack
+coverage
+dist
+node_modules
+package*.json
+tsconfig.json
+.build
+.sst
